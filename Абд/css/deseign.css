@@ -1,0 +1,482 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    width: 75.5%;
+    margin: 0 auto ;
+
+}
+
+header {
+    
+    
+    height: 60px;
+    background-color: #0B0D17;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    
+}
+
+.d {
+    display: flex;
+    gap: 24px;
+
+    img {
+        width: 100px;
+        height: 30px;
+    }
+
+    p {
+        color: rgba(255, 255, 255, 0.54);
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    a {
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: #60CDF6;
+        text-decoration: underline;
+        }
+
+    }
+
+   
+
+}
+
+.borzij {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.btn1 {
+    background-color: #23252E;
+    border: 1px solid #31333D;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main {
+    background-image: url(/img/Rectangle\ 4292\ \(2\).png);
+    width: 100%;
+    height: 500px;
+    
+}
+
+.obsh44 {
+    padding-top: 139px;
+    margin-left: 100px;
+    h2 {
+       
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        font-size: 36px;
+        font-weight: 700;
+        color: #EF3833;
+        text-transform: uppercase;
+        text-decoration: underline;
+        
+    }
+
+    .btn44 {
+        color: white;
+        width: 148px;
+        height: 44px;
+        border: 1px solid #53C2EC;
+        background-color: #53C2EC;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+.des {
+    background-color: #F5F5F5;
+    height: 502px;
+}
+
+.ept {
+    display: flex;
+    margin-left: 70px;
+
+}
+
+.kartinka {
+    border-right: 4px solid hsla(0, 0%, 100%, 0.91);
+    height: 190px;
+    display: flex;
+    align-items: center;
+    margin-top: 156px;
+    img {
+        width: 222px;
+        height: 69px;
+        margin-right: 52px;
+    }
+}
+
+.divdv {
+    margin-left: 52px;
+    margin-top: 100px;
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        color: #242935;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #51555E;
+    }
+}
+
+.nash {
+
+    h5 {
+        margin-top: 101px;
+        text-align: center;
+        font-size: 38px;
+        font-weight: 700;
+        color: #242935;
+
+    }
+
+}
+
+.flexxx {
+    display: flex;
+    justify-content: center;
+}
+
+.last1 {
+    background-image: url(/img/Rectangle\ 4296.png);
+    width: 1000px;
+    height: 303px;
+    margin-top: 40px;
+    position: relative;
+    
+
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        padding-top: 60px;
+        margin-left: 100px;
+        
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.732);
+        line-height: 17px;
+        letter-spacing: 3%;
+        padding-top: 9px;
+        margin-left: 100px;
+    }
+
+    .btn011 {
+        margin-top: 30px;
+        width: 197px;
+        height: 44px;
+        text-transform: uppercase;
+        background-color: #45CCFF;
+        color: white;
+        border: 1px solid #53C2EC;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 100px;
+    }
+
+    h3 {
+        color: #2B3039;
+        font-size: 120px;
+        font-weight: 700;
+        opacity: 20%;
+        position: absolute;
+        bottom: 70px;
+        left: 320px;
+    }
+}
+
+.last2 {
+    background-image: url(/img/Rectangle\ 4303.png);
+    width: 1000px;
+    height: 303px;
+    margin-top: 30px;
+    position: relative;
+
+
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        padding-top: 83px;
+        padding-left: 682px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.732);
+        line-height: 17px;
+        letter-spacing: 3%;
+        margin-top: 9px;
+        padding-left: 597px;
+        text-align: center;
+    }
+
+    .btn011 {
+        
+        width: 197px;
+        height: 44px;
+        text-transform: uppercase;
+        background-color: #45CCFF;
+        color: white;
+        border: 1px solid #53C2EC;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 722px;
+        margin-top: 30px;
+        
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 120px;
+        opacity: 20%;
+        color: #2B3039;
+        position: absolute;
+        left: 582px;
+        bottom: 65px;
+
+    }
+
+}
+
+.last3 {
+    width: 1000px;
+    height: 303px;
+    margin-top: 30px;
+    background-image: url(/img/Rectangle\ 4305.png);
+    position: relative;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin-left: 100px;
+        padding-top: 70px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.732);
+        line-height: 17px;
+        letter-spacing: 3%;
+        margin-left: 100px;
+        margin-top: 9px;
+    }
+
+    .btn011 {
+        margin-left: 100px;
+        width: 197px;
+        height: 44px;
+        text-transform: uppercase;
+        background-color: #45CCFF;
+        color: white;
+        border: 1px solid #53C2EC;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 120px;
+        opacity: 20%;
+        color: #2B3039;
+        position: absolute;
+        left: 325px;
+        bottom: 80px;
+    }
+    margin-bottom: 120px;
+}
+
+footer {
+    height: 216px;
+    background-color: #0B0D17;
+}
+
+.last {
+    display: flex;
+    gap: 30px;
+
+    a {
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: #60CDF6;
+        text-decoration: underline;
+        }
+        
+    }
+}
+
+.obsh10 {
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.ll {
+    margin-right: 321px;
+    
+    img {
+        width: 100px;
+        height: 30px;
+        margin-right: 321px;
+    }
+}
+
+.icons {
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+}
+
+.btn10 {
+    margin-left: 30px;
+    width: 70px;
+    height: 30px;
+    background-color: #23252E;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid #31333D;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer {
+    p {
+        color: #444444;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 88px;
+    }
+}
+
+@media (max-width: 360px){
+
+    .container {
+        width: 90%;
+    }
+
+    header {
+        width: 100%;
+        max-width: 360px;
+        
+    }
+
+    main {
+        height: 620px;
+        width: 100%;
+        max-width: 360px;
+        background-image: url(/img/Rectangle\ 2\ \(3\).jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .obsh44 {
+        a {
+            font-size: 28px;
+            text-wrap: nowrap;
+        }
+    }
+
+    .obsh44 {
+        position: relative;
+        .btn44 {
+            position: absolute;
+            top: 500px;
+            left: 95px;
+        }
+        }
+    .obsh44 {
+        padding-top: 80px;
+        margin-left: -5px;
+
+        h2 {
+            text-wrap: nowrap;
+        }
+    }
+
+    nav {
+        display: none;
+    }
+
+    .des {
+        display: none;
+    }
+
+    .nash {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 360px;
+        height: 1000px;
+        background-color: black;
+        :nth-child(even) {
+            display: none;
+        }
+
+        :nth-child(odd) {
+            display: none;
+        }
+    }
+
+}
